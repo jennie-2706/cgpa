@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional CGPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎓 CGPA Calculator</h1>
+        <p>Add your subjects, credits, and grade points to calculate your CGPA.</p>
+
+        <div class="card">
+            <table id="subjectsTable">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Subject Name</th>
+                        <th>Credit Hours</th>
+                        <th>Grade Point</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="subjectsBody">
+                    <!-- Dynamic rows -->
+                </tbody>
+            </table>
+
+            <div class="controls">
+                <button type="button" id="addSubject">➕ Add Subject</button>
+                <button type="button" id="calculate">Calculate CGPA</button>
+            </div>
+        </div>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

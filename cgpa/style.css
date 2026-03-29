@@ -1,0 +1,121 @@
+/* General styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px 0;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    text-align: center;
+}
+
+/* Heading */
+h1 {
+    color: #fff;
+    font-size: 2.2em;
+    margin-bottom: 5px;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+p {
+    color: #eee;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Card style */
+.card {
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 12px 10px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+th {
+    background: #764ba2;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 10px 10px 0 0;
+}
+
+td input {
+    width: 90%;
+    padding: 6px 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+td input:focus {
+    border-color: #764ba2;
+    box-shadow: 0 0 5px rgba(118,75,162,0.5);
+}
+
+/* Remove button */
+td button {
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+td button:hover {
+    background-color: #e63946;
+}
+
+/* Controls */
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.controls button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    transition: 0.3s;
+    font-size: 1em;
+}
+
+.controls button:hover {
+    background: linear-gradient(135deg, #764ba2, #667eea);
+}
+
+/* Result display */
+#result {
+    margin-top: 25px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    background: rgba(0,0,0,0.3);
+}
